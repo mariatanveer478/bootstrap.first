@@ -1,0 +1,69 @@
+*{
+    background-color: black;
+}
+.header{
+    font-size: 30px;
+padding: 20px;
+   
+}
+.card{
+    margin-top:60px ;
+    margin-left: 20px;
+    padding: 30px;
+    text-align: justify;
+    column-gap: 10px;
+}
+.cafe{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color:azure;
+}
+.bar{
+    color:azure;
+    font-size: 25px;
+    padding-top:15px;
+    text-align:center;
+
+}
+.box{
+   padding: 80px;
+    font-size:60px;
+    color:white;
+    text-align: center;
+background-color: azure;
+
+}
+.box h2{
+    font-size: 80px;
+    font-weight: 800;
+    color: black;
+    background-color: azure;
+    transition: 2s;
+    @keyframes{ 1s animate__slideOutRight};
+}
+
+
+.box h2:hover{
+    color:rgb(143, 83, 83);
+    font-size:90px;
+    animation:slideInRight 2s 1s;
+}
+@keyframes slideInRight{
+    from{
+        transform: translateX(100%);
+        opacity:0;
+    }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+        
+
+    
+ 
+
+
+
+  

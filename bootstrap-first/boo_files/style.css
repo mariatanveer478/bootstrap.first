@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+}
+.header{
+    font-size: 30px;
+padding: 20px;
+   
+}
+.card{
+    margin-top:60px ;
+    margin-left: 20px;
+    padding: 30px;
+    text-align: justify;
+    column-gap: 10px;
+}
+.cafe{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color:azure;
+}
+.bar{
+    color:azure;
+    font-size: 25px;
+    padding-top:15px;
+    text-align:center;
+}
+  

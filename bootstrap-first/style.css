@@ -1,0 +1,164 @@
+*{
+    background-color:white;
+}
+.card{
+    margin-top:60px ;
+    margin-left: 20px;
+    padding: 30px;
+    text-align: justify;
+    column-gap: 10px;
+}
+/* @keyframes zoomInAnimation {
+  0% { transform: scale(0); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.card {
+  animation-name: zoomInAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+} */
+@keyframes slideRightAnimation {
+  0% { transform: translateX(100px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.card{
+  animation-name: slideRightAnimation;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+.cafe{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    color:black;
+    transition:2s ;
+}
+.cafe:hover{
+    color:black;
+    font-size: 70px;
+}
+.bar{
+    color:black;
+    font-size: 25px;
+    padding-top:15px;
+    text-align:center;
+    transition: 3s;
+}
+.bar:hover{
+    font-size:35px;
+    color: black;
+}
+
+
+
+.box{
+   padding: 80px;
+    font-size:60px;
+    color:white;
+    text-align: center;
+background-color:white;
+
+}
+.box h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: black;
+    background-color:white;
+    transition: 2s;
+    animation: slideInright 2s 4s;
+}
+
+
+.box h1:hover{
+    color:rgb(143, 83, 83);
+    font-size:90px;}
+    .box p{
+        font-size:40px;
+        color: black;
+        transition: 2s;
+    }
+    .box p:hover{
+        color: black;
+        font-size:50px ;
+        
+
+    }
+    
+    .box button{
+      
+        border-radius: 20px;
+    }
+    .box .btn {
+        margin: 30px;
+        font-size:30px;
+        padding-left:40px;
+        padding-right: 40px;
+
+    }
+    @media only screen and (max-width:425px){
+        .box{
+   padding: 60px;
+    font-size:20px;
+   
+    text-align: center;
+background-color: white;
+
+}
+.box h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    background-color:white;
+    transition: 4s;
+    animation: slideInright 2s 4s;
+}
+
+
+.box h1:hover{
+    color:rgb(143, 83, 83);
+    font-size:90px;}
+    .box p{
+        font-size:30px;
+        color: black;
+    }
+    .box button{
+      
+        border-radius: 20px;
+    }
+    .box .btn {
+        margin: 10px;
+        font-size:10px;
+        padding-left:20px;
+        padding-right: 20px;
+
+    }
+
+
+    }
+    
+ /* @keyframes slideInRight {
+    from{
+        transform: translateX(100%);
+        opacity:0;
+    }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    } 
+        
+
+    
+  
+
+
+
+   */
